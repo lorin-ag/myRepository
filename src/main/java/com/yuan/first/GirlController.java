@@ -14,6 +14,8 @@ public class GirlController {
 
     @GetMapping(value = "/list")
     public List<Girl> girlList(){
+
+        System.out.println("llllllllllllllllllllllllllllllllll");
         return rep.findAll();
     }
 
